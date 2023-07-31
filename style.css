@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,500&family=Outfit:wght@500&family=Raleway:wght@200;300&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 61%, 54%);
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%)
+}
+
+body,
+html {
+
+    font-family: 18px;
+
+
+}
+
+.container {
+    width: 1380px;
+    height: 600px;
+    background-color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.small-container {
+    width: 500px;
+    height: 330px;
+    background-color: var();
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left {
+    width: 350px;
+    height: 330px;
+    background-color: var(--Light-slate-blue);
+    border-radius: 15px;
+    padding: 20px 20px;
+    text-align: center;
+   
+    
+   
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: var(--Light-royal-blue);
+    border-radius: 50%;
+    margin-left: 39px;
+    /* position: absolute;
+    left: 38%; */
+
+}
+
+
+.left h3{
+    color: var(--Light-lavender);
+    text-align: center;
+    padding-bottom: 15px;
+}
+.left h1{
+    text-align: center;
+    padding-top: 25px;
+    color: var(--White);
+    padding-bottom :10px ;
+}
+.left h2{
+    color: var(--White);
+     padding: 15px;
+}
+.left p{
+    text-align: center;
+    color: var(--Light-lavender);
+}
+
+.text {
+    width: 200px;
+    height: 180px;
+    
+    background-color: black;
+}
+
+
+.rigth {
+    width: 350px;
+    height: 330px;
+    background-color: #ffffff;
+    align-items: center;
+}
+.rigth h3{
+    padding: 20px;
+}
+.links {
+    
+    border:1px solid#FD7272;
+    align-items: center;
+    display: inline;
+    justify-content: space-between;
+    margin-left: 20px;
+}.bg{
+    width: 190px;
+    height: 70px;
+    padding: 20px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
